@@ -14,6 +14,11 @@ import { DrinkButtonComponent } from './drink-button/drink-button.component';
 import { MoreInfoButtonComponent } from './more-info-button/more-info-button.component';
 import { PrimaryNavigationComponent } from './primary-navigation/primary-navigation.component';
 import { UserAvatarComponent } from './user-avatar/user-avatar.component';
+import { MainComponent } from './main/main.component';
+import { DrinkAgainComponent } from './drink-again/drink-again.component';
+import { DrinkAgainWineCardComponent } from './drink-again-wine-card/drink-again-wine-card.component';
+import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
+import { KeepDrinkingCardComponent } from './keep-drinking-card/keep-drinking-card.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,12 @@ import { UserAvatarComponent } from './user-avatar/user-avatar.component';
     DrinkButtonComponent,
     MoreInfoButtonComponent,
     PrimaryNavigationComponent,
-    UserAvatarComponent
+    UserAvatarComponent,
+    MainComponent,
+    DrinkAgainComponent,
+    DrinkAgainWineCardComponent,
+    KeepDrinkingComponent,
+    KeepDrinkingCardComponent
   ],
   imports: [
     BrowserModule,
