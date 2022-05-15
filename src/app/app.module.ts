@@ -19,6 +19,7 @@ import { DrinkAgainComponent } from './drink-again/drink-again.component';
 import { DrinkAgainWineCardComponent } from './drink-again-wine-card/drink-again-wine-card.component';
 import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
 import { KeepDrinkingCardComponent } from './keep-drinking-card/keep-drinking-card.component';
+import { WineflixLogoComponent } from './wineflix-logo/wineflix-logo.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { KeepDrinkingCardComponent } from './keep-drinking-card/keep-drinking-ca
     DrinkAgainComponent,
     DrinkAgainWineCardComponent,
     KeepDrinkingComponent,
-    KeepDrinkingCardComponent
+    KeepDrinkingCardComponent,
+    WineflixLogoComponent
   ],
   imports: [
     BrowserModule,
