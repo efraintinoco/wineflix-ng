@@ -4,10 +4,12 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { HeaderContentComponent } from './header-content/header-content.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderContentComponent
   ],
   imports: [
     BrowserModule,
