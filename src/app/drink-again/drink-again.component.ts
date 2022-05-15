@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 
 @Component({
@@ -6,13 +6,10 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './drink-again.component.html',
   styleUrls: ['./drink-again.component.css']
 })
-export class DrinkAgainComponent implements OnInit {
-  
+export class DrinkAgainComponent {
 
-
-  constructor() { }
-
-  ngOnInit(): void {
+  drinkAgainWine = {
+    isNew: true,
   }
 
 }

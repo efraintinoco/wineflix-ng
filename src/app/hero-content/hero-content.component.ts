@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { faPlay, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
-import { Hero } from '../../../hero-content';
-
-
 @Component({
   selector: 'app-hero-content',
   templateUrl: './hero-content.component.html',
   styleUrls: ['./hero-content.component.css']
 })
-export class HeroContentComponent implements OnInit {
+  
+export class HeroContentComponent {
 
-  hero : Hero = {
+  hero = {
     title: 'Rex Goliath',
     subtitle: 'His Royal Majesty is back.',
     imageUrl: '/assets/rex-goliath-logo.png',
@@ -21,10 +19,4 @@ export class HeroContentComponent implements OnInit {
   faPlay = faPlay
   faInfoCircle = faInfoCircle
   title = 'angular-template';
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { faPlay, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -6,15 +6,11 @@ import { faPlay, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './header-content.component.html',
   styleUrls: ['./header-content.component.css']
 })
-export class HeaderContentComponent implements OnInit {
+  
+export class HeaderContentComponent {
 
   faPlay = faPlay
   faInfoCircle = faInfoCircle
   title = 'angular-template';
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
