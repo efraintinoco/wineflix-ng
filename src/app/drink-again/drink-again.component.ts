@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { wines, Wine } from '../data';
 
 
 @Component({
@@ -8,8 +9,8 @@ import { Component } from '@angular/core';
 })
 export class DrinkAgainComponent {
 
-  drinkAgainWine = {
-    isNew: true,
-  }
-
+  wines: Wine[] = wines;
+  
 }
+
+

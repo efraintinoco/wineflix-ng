@@ -1,16 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { heroContent } from '../data';
 
 @Component({
   selector: 'app-rex-goliath-logo',
   templateUrl: './rex-goliath-logo.component.html',
   styleUrls: ['./rex-goliath-logo.component.css']
 })
-  
+
 export class RexGoliathLogoComponent {
 
-  heroLogo = {
-    title: 'Rex Goliath',
-    imageUrl: '/assets/rex-goliath-logo.png',
-  }
-
+  heroContent = heroContent;
 }

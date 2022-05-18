@@ -1,4 +1,14 @@
 import { Component, Input } from '@angular/core';
+import { wines, } from '../data';
+
+type Wine = {
+  id: number;
+  imageUrl: string;
+  isNew?: boolean;
+  label: string;
+  isFinished?: boolean;
+  progress?: number;
+}
 
 @Component({
   selector: 'app-drink-again-wine-card',
@@ -7,11 +17,5 @@ import { Component, Input } from '@angular/core';
 })
 export class DrinkAgainWineCardComponent {
 
-  @Input() isNew?= false;
-
-  drinkAgainWineCard = {
-    imageUrl: '/assets/red-wine.jpg',
-    label: 'Wine',
-  }
-
+  wines: Wine[] = wines;
 }

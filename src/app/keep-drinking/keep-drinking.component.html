@@ -1,27 +1,13 @@
-<h2>Keep Drinking</h2>
-    <ul>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-      <li>
-        <app-keep-drinking-card></app-keep-drinking-card>
-      </li>
-    </ul>
+<section class="category">
+  <h2>Keep Drinking</h2>
+  <ul>
+    <li *ngFor="let wine of wines">
+      <div *ngIf="wine.progress" class="wine">
+        <img src="{{wine.imageUrl}}" alt="{{wine.label}}" />
+        <div class="amount-consumed">
+          <progress min="0" max="100" value="{{wine.progress}}"></progress>
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>

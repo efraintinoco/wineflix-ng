@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Wine, wines } from '../data';
 
 @Component({
   selector: 'app-keep-drinking-card',
@@ -8,10 +9,6 @@ import { Component } from '@angular/core';
 
 export class KeepDrinkingCardComponent {
 
-  keepDrinkingCard = {
-    imageUrl: '/assets/red-wine.jpg',
-    progress: 22,
-    label: 'Wine',
-  }
-  
+ 
+
 }
