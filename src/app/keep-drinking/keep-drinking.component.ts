@@ -7,6 +7,7 @@ import { wines, Wine } from '../data';
   styleUrls: ['./keep-drinking.component.css']
 })
 export class KeepDrinkingComponent {
+
   wines: Wine[] = wines;
 
 }

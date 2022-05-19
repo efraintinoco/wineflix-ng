@@ -1,0 +1,7 @@
+.navigation-links li{
+  display:inline-block;margin-right:18px
+}
+
+.navigation-links li.active,.user-avatar{
+  font-weight:700
+}

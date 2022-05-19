@@ -1,1 +1,7 @@
- 
+.controls li{
+  display:inline;margin-right:12px
+}
+
+.controls button span{
+  display:inline-block;margin-left:20px
+}

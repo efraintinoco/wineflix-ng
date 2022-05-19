@@ -16,9 +16,7 @@ import { PrimaryNavigationComponent } from './primary-navigation/primary-navigat
 import { UserAvatarComponent } from './user-avatar/user-avatar.component';
 import { MainComponent } from './main/main.component';
 import { DrinkAgainComponent } from './drink-again/drink-again.component';
-import { DrinkAgainWineCardComponent } from './drink-again-wine-card/drink-again-wine-card.component';
 import { KeepDrinkingComponent } from './keep-drinking/keep-drinking.component';
-import { KeepDrinkingCardComponent } from './keep-drinking-card/keep-drinking-card.component';
 import { WineflixLogoComponent } from './wineflix-logo/wineflix-logo.component';
 import { NewBadgeComponent } from './new-badge/new-badge.component';
 
@@ -37,9 +35,7 @@ import { NewBadgeComponent } from './new-badge/new-badge.component';
     UserAvatarComponent,
     MainComponent,
     DrinkAgainComponent,
-    DrinkAgainWineCardComponent,
     KeepDrinkingComponent,
-    KeepDrinkingCardComponent,
     WineflixLogoComponent,
     NewBadgeComponent
   ],
