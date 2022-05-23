@@ -5,7 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './wineflix-logo.component.html',
   styleUrls: ['./wineflix-logo.component.css']
 })
-  
+
 export class WineflixLogoComponent {
+
+  logo = "Wineflix";
 
 }

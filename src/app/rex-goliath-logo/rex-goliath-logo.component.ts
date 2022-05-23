@@ -10,4 +10,7 @@ import { heroContent } from '../data';
 export class RexGoliathLogoComponent {
 
   heroContent = heroContent;
+
+  @Input() title = "";
+  @Input() imageUrl = "";
 }

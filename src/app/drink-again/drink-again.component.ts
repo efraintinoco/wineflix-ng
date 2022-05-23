@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { wines, Wine } from '../data';
 
 
@@ -10,7 +10,13 @@ import { wines, Wine } from '../data';
 export class DrinkAgainComponent {
 
   wines: Wine[] = wines;
-  
+
+  imageUrl!: string;
+  isNew?: boolean;
+  label?: string;
+  isFinished?: boolean;
+
+
 }
 
 

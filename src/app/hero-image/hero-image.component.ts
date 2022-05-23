@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeroImageComponent {
 
+  backgroundImage = "/assets/wine-hero.webp";
+  backgroundTitle = "Wine bottles";
+
 }

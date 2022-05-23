@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { heroContent } from '../data';
 
 @Component({
@@ -10,5 +10,10 @@ import { heroContent } from '../data';
 export class HeroContentComponent {
 
   heroContent = heroContent;
+
+  title?: string;
+  subtitle?: string;
+  imageUrl!: string;
+  description?: string;
 
 }
