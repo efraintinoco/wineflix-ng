@@ -1,5 +1,10 @@
   <header class="hero">
     <app-hero-image></app-hero-image>
     <app-navigation></app-navigation>
-    <app-hero-content></app-hero-content>
+    <app-hero-content
+      [imageUrl]="heroContent.imageUrl"
+      [title]="heroContent.title"
+      [subtitle]="heroContent.subtitle"
+      [description]="heroContent.description"
+    ></app-hero-content>
   </header>

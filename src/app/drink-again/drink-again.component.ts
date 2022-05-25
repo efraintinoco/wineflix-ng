@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-import { wines, Wine } from '../data';
-
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-drink-again',
@@ -9,13 +7,9 @@ import { wines, Wine } from '../data';
 })
 export class DrinkAgainComponent {
 
-  wines: Wine[] = wines;
-
-  imageUrl!: string;
-  isNew?: boolean;
-  label?: string;
-  isFinished?: boolean;
-
+  @Input() isNew?: boolean;
+  @Input() imageUrl = "";
+  @Input() label = "";
 
 }
 

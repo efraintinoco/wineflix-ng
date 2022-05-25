@@ -7,7 +7,6 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { HeaderContentComponent } from './header-content/header-content.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeroContentComponent } from './hero-content/hero-content.component';
-import { RexGoliathLogoComponent } from './rex-goliath-logo/rex-goliath-logo.component';
 import { HeroImageComponent } from './hero-image/hero-image.component';
 import { ButtonsComponent } from './controls/controls.component';
 import { DrinkButtonComponent } from './drink-button/drink-button.component';
@@ -26,7 +25,6 @@ import { NewBadgeComponent } from './new-badge/new-badge.component';
     HeaderContentComponent,
     NavigationComponent,
     HeroContentComponent,
-    RexGoliathLogoComponent,
     HeroImageComponent,
     ButtonsComponent,
     DrinkButtonComponent,
